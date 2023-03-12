@@ -21,6 +21,10 @@ h1 {
     background-color: aliceblue;
 }
 
+.bayan:hover {
+    cursor: pointer;
+}
+
 .bayan-item {
     border-top: 1px solid gainsboro;
     padding: 10px 0;
@@ -29,6 +33,7 @@ h1 {
 .bayan-img {
     padding: 10px 20px;
     display: none;
+    cursor: pointer;
 }
 
 img {
