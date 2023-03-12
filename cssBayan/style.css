@@ -55,8 +55,17 @@ h1 {
     position: absolute;
 }
 
-.bayan-input:checked + .bayan-img {
+.bayan-input:checked ~ .bayan-img {
     display: block;
+}
+
+.bayan-input:hover ~.bayan-img {
+    display: block;
+}
+
+.bayan-input:checked ~ label > img {
+    transform: rotate(45deg);
+    transition-duration: .2s;
 }
 
 label > img {
