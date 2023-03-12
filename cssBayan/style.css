@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: aliceblue;
+}
+
+.bayan-item {
+    border-top: 1px solid gainsboro;
+    padding: 10px 0;
+}
+
+.bayan-img {
+    padding: 10px 20px;
+    display: none;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.bayan-title {
+    padding: 10px 20px;
+    display: block;
+    cursor: pointer;
+}
+
+.bayan-input {
+    width: 0;
+    height: 0;
+    appearance: none;
+    position: absolute;
+}
+
+.bayan-input:checked + .bayan-img {
+    display: block;
+}
